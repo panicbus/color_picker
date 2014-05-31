@@ -1,0 +1,14 @@
+html body {
+	margin: 0;
+	background-color: #000;
+}
+
+.title {
+	font-family: "Text Me One";
+	color: white;
+	font-size: 25px; 
+	text-align: center;
+	margin: 75px auto;
+	display: block;
+	width: 400px;
+}
