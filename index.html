@@ -8,12 +8,53 @@
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
   <link href="css/application.css" rel="stylesheet">
-  <link href="js/application.js" rel="stylesheet">
+  <script src="js/application.js" rel="stylesheet"></script>
+  <script src="js/colorpicker.js" rel="stylesheet"></script>
 
 </head>
 <body>
-<div class='title'>
-	The Color Picker
+	<div class='title'>
+		<p>A Color Picker</p>
+		<p>By Nico Crisafulli</p>
+	</div>
+
+	<div class='swatch-box'></div>
+
+	<div id="tool-wrapper">
+
+		<div class="disc-container">
+			<div id="outer-disc">
+				<div class="inner-disc">
+				 
+				 	<div id="color-values">
+						<div class='rgb-div'>
+							<label>RGB:&nbsp;</label><span id="rgb"></span>
+						</div>
+						<div class='hsv-div'>
+							<label>HSV:&nbsp;</label><span id="hsv"></span>
+						</div>
+						<div class='hex-div'>
+							<label>HEX:&nbsp;</label><span id="hex"></span>
+						</div>
+					</div>
+				 	
+				</div>  
+	 		</div>
+	 	</div>
+
 </div>
+ 	
+	<div id="color-picker" class="cp-default">
+    <div class="picker-wrapper">
+      <div id="picker" class="picker"></div>
+      <div id="picker-indicator" class="picker-indicator"></div>
+    </div>
+    <div class="slide-wrapper">
+      <div id="slide" class="slide"></div>
+      <div id="slide-indicator" class="slide-indicator"></div>
+		</div>
+	</div>
+
+
 </body>
 </html>
